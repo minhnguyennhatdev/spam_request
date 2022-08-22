@@ -1,0 +1,25 @@
+{
+  "name": "benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index",
+    "spam": "node src/spamFutureOrder",
+    "run": "node src/index",
+    "test": "node src/test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "date-fns": "^2.29.1",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.2"
+  }
+}
